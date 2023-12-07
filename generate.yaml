@@ -1,0 +1,9 @@
+---
+environmentSpec: Dev
+type: Product
+authMethod: none
+product:
+  productName: prod2
+  apiList: cc-transformer-api
+schemes: []
+routes: []
