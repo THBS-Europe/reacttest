@@ -2,8 +2,13 @@
 environmentSpec: Dev
 type: Product
 authMethod: none
+azureRateLimit:
+  noOfCalls: 12
+  renewalPeriod: 100
+  ratepolicy: api
+  counter: ip-address
 product:
   productName: prod2
-  apiList: cc-transformer-api
+  apiList: "cc-transformer-api,asset-management"
 schemes: []
 routes: []
